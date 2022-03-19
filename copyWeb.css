@@ -1,0 +1,189 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+@media screen and (min-width:375px) {
+    .card {
+        display: flex;
+        box-shadow: 4px 4px 10px 6px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        background-color: white;
+        width: 300;
+        height: 500;
+        margin: 30px 30px;
+        flex-flow: column wrap;
+      }
+    img {
+        border-radius: 10px 10px 0px 0px;
+        width: 300;
+        height: 200;
+        object-fit: cover;
+        object-position: 0 -0%;
+    }
+    .container {
+        padding: 40px;
+        padding-left:30px;
+        padding-right: 30px;
+        padding-top:20px;
+        padding-bottom: 10px;
+    }
+    .textHeading1 {
+        font-weight: bold;
+        color: hsl(217, 19%, 35%);
+        font-weight: 700;
+        font-family: "Manrope";
+        line-height: 1.5;
+        font-size: 20px;
+        font-size: 15px;
+        width: 250;
+    }
+    .textBody {
+        font-weight: lighter;
+        color: hsl(214, 17%, 51%);
+        font-weight: 500;
+        font-size: 12px;
+        font-family: "Manrope";
+        line-height: 1.7;
+        width: 238.5;
+    }
+    .author {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 25px;
+        width: 310;
+    }
+    .desc {
+        display: flex;
+        flex-direction: column;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 0px;
+        font-weight: bold;
+        color: hsl(217, 19%, 35%);
+        font-weight: 700;
+        font-family: "Manrope";
+        font-size: 10px;
+    }
+    .date {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 5px;
+        gap: 0px;
+        font-weight: lighter;
+        color: hsl(214, 17%, 51%);
+        font-weight: 500;
+        font-size: 10px;
+        font-family: "Manrope";
+    }
+    .avatar {
+        vertical-align: middle;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .share img{
+        width: 20px;
+        height: 20px;
+        margin-left: 60px;
+        border-radius: 50%;
+        background-color: hsl(210, 46%, 95%);
+        background-size: auto;
+    }
+}
+
+@media screen and (min-width:1440px) {
+.card {
+    display: flex;
+    box-shadow: 4px 4px 10px 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: white;
+    width: 740;
+    height: 278;
+    margin: 30px 30px;
+    flex-flow: column wrap;
+}
+img {
+    border-radius: 10px 0px 0px 10px;
+    width: 285;
+    height: 278;
+    object-fit: cover; 
+    object-position: -0% 0;
+}
+.container {
+    padding: 40px;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.textHeading1 {
+    font-weight: bold;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-family: "Manrope";
+    line-height: 1.3;
+    font-size: 20px;
+    width: 350;
+}
+.textBody {
+    font-weight: lighter;
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Manrope";
+    line-height: 1.5;
+    width: 350;
+}
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 0px;
+    font-weight: bold;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-family: "Manrope";
+    font-size: 13px;
+    width: 150;
+}
+.date {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 5px;
+    gap: 0px;
+    font-weight: lighter;
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Manrope";
+}
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.share img{
+    width: 20px;
+    height: 20px;
+    margin-left: 120px;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+    background-size: auto;
+}
+}
